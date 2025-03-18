@@ -1,0 +1,15 @@
+D:\ASP.NET_Core\NZWalks\ServiceLayer\bin\Debug\net9.0\ServiceLayer.deps.json
+D:\ASP.NET_Core\NZWalks\ServiceLayer\bin\Debug\net9.0\ServiceLayer.dll
+D:\ASP.NET_Core\NZWalks\ServiceLayer\bin\Debug\net9.0\ServiceLayer.pdb
+D:\ASP.NET_Core\NZWalks\ServiceLayer\bin\Debug\net9.0\RepositoryLayer.dll
+D:\ASP.NET_Core\NZWalks\ServiceLayer\bin\Debug\net9.0\RepositoryLayer.pdb
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.csproj.AssemblyReference.cache
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.AssemblyInfoInputs.cache
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.AssemblyInfo.cs
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.csproj.CoreCompileInputs.cache
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceL.3037F684.Up2Date
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.dll
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\refint\ServiceLayer.dll
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ServiceLayer.pdb
+D:\ASP.NET_Core\NZWalks\ServiceLayer\obj\Debug\net9.0\ref\ServiceLayer.dll

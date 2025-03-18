@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NZWalksAPI", "NZWalksAPI\NZWalksAPI.csproj", "{B95FCA42-42A7-4ADE-B4E1-257A4181D122}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NZWalks", "NZWalks", "{F0C883B4-43C4-4ECB-828E-0B60E684E647}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NZWalks.Test", "NZWalks.Test", "{CB99C6F0-F7F8-41B6-836E-F3A2436049CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NZWalksTest", "NZWalksTest\NZWalksTest.csproj", "{DBEB0092-381E-4B48-A7ED-C062D1E69213}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLayer", "ServiceLayer\ServiceLayer.csproj", "{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepositoryLayer", "RepositoryLayer\RepositoryLayer.csproj", "{F72A4392-25CE-4149-851C-6E49E268C35E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2ABA9C5-B931-4F94-B0CB-1A091DB86615}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95FCA42-42A7-4ADE-B4E1-257A4181D122}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95FCA42-42A7-4ADE-B4E1-257A4181D122}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B95FCA42-42A7-4ADE-B4E1-257A4181D122}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B95FCA42-42A7-4ADE-B4E1-257A4181D122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBEB0092-381E-4B48-A7ED-C062D1E69213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBEB0092-381E-4B48-A7ED-C062D1E69213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBEB0092-381E-4B48-A7ED-C062D1E69213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBEB0092-381E-4B48-A7ED-C062D1E69213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F72A4392-25CE-4149-851C-6E49E268C35E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F72A4392-25CE-4149-851C-6E49E268C35E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F72A4392-25CE-4149-851C-6E49E268C35E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F72A4392-25CE-4149-851C-6E49E268C35E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B95FCA42-42A7-4ADE-B4E1-257A4181D122} = {F0C883B4-43C4-4ECB-828E-0B60E684E647}
+		{DBEB0092-381E-4B48-A7ED-C062D1E69213} = {CB99C6F0-F7F8-41B6-836E-F3A2436049CE}
+		{68F6ABAE-DFC7-4CA8-B65D-D154ECF94FB0} = {F0C883B4-43C4-4ECB-828E-0B60E684E647}
+		{F72A4392-25CE-4149-851C-6E49E268C35E} = {F0C883B4-43C4-4ECB-828E-0B60E684E647}
+	EndGlobalSection
+EndGlobal

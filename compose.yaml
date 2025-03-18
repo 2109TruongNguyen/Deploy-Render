@@ -1,0 +1,6 @@
+﻿services:
+  nzwalksapi:
+    image: nzwalksapi
+    build:
+      context: .
+      dockerfile: NZWalksAPI/Dockerfile

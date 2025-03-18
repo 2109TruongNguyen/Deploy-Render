@@ -1,0 +1,11 @@
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\bin\Debug\net9.0\RepositoryLayer.deps.json
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\bin\Debug\net9.0\RepositoryLayer.dll
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\bin\Debug\net9.0\RepositoryLayer.pdb
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.AssemblyInfoInputs.cache
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.AssemblyInfo.cs
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.dll
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\refint\RepositoryLayer.dll
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\RepositoryLayer.pdb
+D:\ASP.NET_Core\NZWalks\RepositoryLayer\obj\Debug\net9.0\ref\RepositoryLayer.dll

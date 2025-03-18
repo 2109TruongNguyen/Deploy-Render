@@ -1,0 +1,58 @@
+2025-02-19 22:02:53.960 +07:00 [ERR] cef58fa3-06d1-4be3-b1bd-159c170c8e6f : An error was encountered while handling the remote login.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: The oauth state was missing or invalid.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:03:36.071 +07:00 [ERR] 339b7b00-4a28-4cbb-9446-c6a37bed709e : An error was encountered while handling the remote login.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: The oauth state was missing or invalid.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:08:50.649 +07:00 [ERR] e622b1bf-945a-4c14-993a-7e03ed40cbe2 : No authenticationScheme was specified, and there was no DefaultSignInScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultSignInScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.SignInAsync(HttpContext context, String scheme, ClaimsPrincipal principal, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:24:16.595 +07:00 [ERR] 571c5a12-a64b-4ec5-81b9-ddf1292e45fa : Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'NZWalksAPI.Controllers.AuthController'.
+System.InvalidOperationException: Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'NZWalksAPI.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method4(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:25:52.567 +07:00 [WRN] The foreign key property 'IdentityUserRole<Guid>.RoleId1' was created in shadow state because a conflicting property with the simple name 'RoleId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-19 22:25:52.609 +07:00 [WRN] The foreign key property 'IdentityUserRole<Guid>.UserId1' was created in shadow state because a conflicting property with the simple name 'UserId' exists in the entity type, but is either not mapped, is already used for another relationship, or is incompatible with the associated primary key type. See https://aka.ms/efcore-relationships for information on mapping relationships in EF Core.
+2025-02-19 22:31:51.786 +07:00 [ERR] 1a5533da-b479-4571-92cd-446d765339a7 : An error was encountered while handling the remote login.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: The oauth state was missing or invalid.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:34:37.445 +07:00 [ERR] a043bdb1-5450-422e-8c08-49c969462213 : An error was encountered while handling the remote login.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: The oauth state was missing or invalid.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
+2025-02-19 22:51:43.026 +07:00 [WRN] '.AspNetCore.Correlation.faBIKCOvLBI4iZ-o1QdUhQvvTlhSiSCAHWBTii0OD9E' cookie not found.
+2025-02-19 22:51:43.081 +07:00 [ERR] 4eeba3aa-bf84-4d90-85ee-a301506c58a6 : An error was encountered while handling the remote login.
+Microsoft.AspNetCore.Authentication.AuthenticationFailureException: An error was encountered while handling the remote login.
+ ---> Microsoft.AspNetCore.Authentication.AuthenticationFailureException: Correlation failed.
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.HandleRequestAsync()
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NZWalksAPI.Middelwares.ExceptionHandlerMiddleware.InvokeAsync(HttpContext httpContext) in D:\ASP.NET_Core\NZWalks\NZWalksAPI\Middelwares\ExceptionHandlerMiddleware.cs:line 22
